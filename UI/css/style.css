@@ -1,9 +1,13 @@
 *{margin: 0;}
 
+body {
+    background-color: lightgray;
+}
+
 .header {
-    background: #7a81a7;
-    text-align: left;
-    font-size: 20px;
+    background: #979ec7;
+    text-align: center;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     padding: 4px;
@@ -18,29 +22,55 @@
 }
 
 .languages {
-    background: white;
+    background: #282b28; 
     border: 1px solid gray;
+    color: white;
 }
 
-#editor { height: 400px; }
+#editor { 
+    min-height: 400px; 
+    background-color: #282b28; 
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow:  rgba(7, 7, 7, 0.5) 0px 1px 4px 1px;
+}
 
 .button-container {
     text-align: right;
     padding: 4px;
 }
 
+#run-img {
+    height:20px;
+    vertical-align: middle;
+}
+
 .btn {
-    background: #57a958;
+    background:  #979ec7;
     color: white;
     padding: 8px;
-    border: 0;
+    height: auto;
+    width:auto;
+    text-align: center;
+    border: 1px solid #7a81a7;
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 1px 4px 1px;
+    border-radius: 5px;
+    display: grid;
+    margin: auto;
+    vertical-align: middle;
 }
 
 .output {
-        padding: 4px;
-        border: 2px solid gray;
-        min-height: 100px;
-        width: 99%;
-        resize: none;
+    border: 2px solid gray;
+    min-height: 200px;
+    width: 1000px;
+    margin: 0 auto;
+    align-self: center;
+    resize: none;
+    border-radius: 5px;
+    background-color: #282b28; 
+    box-shadow:  rgba(7, 7, 7, 0.5) 0px 1px 4px 1px;
+    color: white;
 
 }
